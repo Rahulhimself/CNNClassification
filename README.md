@@ -1,4 +1,6 @@
 Cats vs. Dogs Image Classifier with Convolutional Neural Networks (CNN)
+
+
 This repository contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
 
 The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment.
