@@ -1,9 +1,13 @@
 # Cats vs. Dogs Image Classifier with Convolutional Neural Networks (CNN) #
-
+<hr>
+<img src="images\Cat-and-Dog.jpg" alt="cat vs dog poster" width="600" height="400"/>
+<hr>
 
 ## This repository contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment. ##
+<hr>
 
 ## Project Objectives ##
+
 ### The main goals of this project are: ###
 
 -Data Preparation: Download and organize the Cats vs. Dogs dataset, splitting it into training and validation sets.
@@ -16,20 +20,23 @@ Training and Evaluation: Train the model and evaluate its performance using accu
 
 Prediction: Create a function to make predictions on new, unseen images.
 
-Model Architecture
-The CNN architecture is a sequential model designed for image classification. It consists of the following layers:
+## Model Architecture
 
-Input Layer: A Conv2D layer with 32 filters, followed by MaxPooling2D.
+<img src="images\cnn image.jpeg" alt="CNN Representation" width="600" height="400"/>
 
-Hidden Layers: Three additional blocks of Conv2D and MaxPooling2D layers, progressively increasing the number of filters to 64, 128, and 128 respectively, to learn more complex features.
+-The CNN architecture is a sequential model designed for image classification. It consists of the following layers:
 
-Flatten Layer: A Flatten layer to convert the 3D output of the convolutional layers into a 1D vector.
+-Input Layer: A Conv2D layer with 32 filters, followed by MaxPooling2D.
 
-Fully Connected Layers: A Dense layer with 512 units and a ReLU activation function.
+-Hidden Layers: Three additional blocks of Conv2D and MaxPooling2D layers, progressively increasing the number of filters to 64, 128, and 128 respectively, to learn more complex features.
 
-Output Layer: A final Dense layer with a sigmoid activation function to output a single probability score for the "dog" class.
+-Flatten Layer: A Flatten layer to convert the 3D output of the convolutional layers into a 1D vector.
 
-The model is compiled with the binary_crossentropy loss function and the RMSprop optimizer.
+-Fully Connected Layers: A Dense layer with 512 units and a ReLU activation function.
+
+-Output Layer: A final Dense layer with a sigmoid activation function to output a single probability score for the "dog" class.
+
+-The model is compiled with the binary_crossentropy loss function and the RMSprop optimizer.
 
 ## Getting Started ##
 
