@@ -63,7 +63,7 @@ The model's performance can be evaluated by examining the generated plots for ac
 
 ### Based on the provided code with 30 epochs, you will likely observe a clear case of overfitting, where the validation accuracy and loss plateau after about 15 epochs. This demonstrates a key challenge in machine learning and the importance of monitoring these plots to determine the optimal number of training epochs. Change epochs training to 15 wanna keep it minimal error ###
 
-## the project cna be updated using opencv for live object detection classification whether its a cat or dog
+## the model accuracy can be seen around 72 percentage, the project can be updated using more data for more accuracy and using opencv for live object detection classification whether its a cat or dog
 
 ### License
 ### This project is licensed under the MIT License.
