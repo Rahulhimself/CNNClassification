@@ -1,18 +1,16 @@
-Cats vs. Dogs Image Classifier with Convolutional Neural Networks (CNN)
+# Cats vs. Dogs Image Classifier with Convolutional Neural Networks (CNN) #
 
 
-This repository contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
+## This repository contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment. ##
 
-The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment.
+## Project Objectives ##
+### The main goals of this project are: ###
 
-Project Objectives
-The main goals of this project are:
+-Data Preparation: Download and organize the Cats vs. Dogs dataset, splitting it into training and validation sets.
 
-Data Preparation: Download and organize the Cats vs. Dogs dataset, splitting it into training and validation sets.
+-Data Augmentation: Implement data augmentation techniques to prevent overfitting and improve the model's ability to generalize to new images.
 
-Data Augmentation: Implement data augmentation techniques to prevent overfitting and improve the model's ability to generalize to new images.
-
-Model Building: Construct a CNN from scratch with multiple convolutional, pooling, and dense layers.
+-Model Building: Construct a CNN from scratch with multiple convolutional, pooling, and dense layers.
 
 Training and Evaluation: Train the model and evaluate its performance using accuracy and loss metrics, with a focus on monitoring for overfitting.
 
@@ -33,17 +31,19 @@ Output Layer: A final Dense layer with a sigmoid activation function to output a
 
 The model is compiled with the binary_crossentropy loss function and the RMSprop optimizer.
 
-Getting Started
-To run this project, you will need a Google account to access Google Colab.
+## Getting Started ##
 
-How to Run the Code
-Open the Notebook: Copy and paste the code from the cats_vs_dogs_cnn.py file into a new Google Colab notebook.
+### To run this project, you will need a Google account to access Google Colab. they provide free TPU's can be used for exection. comes with most of libraries pre-installed ###
 
-Execute Cells: Run each code cell sequentially. The notebook is structured to guide you through each step of the process.
+## How to Run the Code ##
 
-Data Download: The notebook automatically downloads a pre-structured version of the dataset, so you do not need to manually handle the Kaggle API key setup.
+### Open the Notebook: Copy and paste the code from the cats_vs_dogs_cnn.py file into a new Google Colab notebook. ###
 
-Training: The model will begin training for 30 epochs. This may take some time, depending on the Colab environment's performance.
+### Execute Cells: Run each code cell sequentially. The notebook is structured to guide you through each step of the process. ###
+
+### Data Download: The notebook automatically downloads a pre-structured version of the dataset, so you do not need to manually handle the Kaggle API key setup. ###
+
+### Training: The model will begin training for 15 epochs. This may take some time, depending on the Colab environment's performance. ###
 
 Prediction: After training, the final cell will make predictions on two example images (one cat, one dog) downloaded from the web. You can easily modify this to test your own images by uploading them to Colab.
 
