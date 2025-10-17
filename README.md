@@ -54,7 +54,9 @@ The model's performance can be evaluated by examining the generated plots for ac
 
 -Loss: Similarly, the goal is for both training and validation loss to decrease. If the validation loss begins to increase while the training loss decreases, this is another strong indicator of overfitting.
 
-### Based on the provided code with 30 epochs, you will likely observe a clear case of overfitting, where the validation accuracy and loss plateau after about 15 epochs. This demonstrates a key challenge in machine learning and the importance of monitoring these plots to determine the optimal number of training epochs. ###
+### Based on the provided code with 30 epochs, you will likely observe a clear case of overfitting, where the validation accuracy and loss plateau after about 15 epochs. This demonstrates a key challenge in machine learning and the importance of monitoring these plots to determine the optimal number of training epochs. Change epochs training to 15 wanna keep it minimal error ###
+
+## the project cna be updated using opencv for live object detection classification whether its a cat or dog
 
 ### License
 ### This project is licensed under the MIT License.
