@@ -37,24 +37,24 @@ The model is compiled with the binary_crossentropy loss function and the RMSprop
 
 ## How to Run the Code ##
 
-### Open the Notebook: Copy and paste the code from the cats_vs_dogs_cnn.py file into a new Google Colab notebook. ###
+-Open the Notebook: Copy and paste the code from the cats_vs_dogs_cnn.py file into a new Google Colab notebook. 
 
-### Execute Cells: Run each code cell sequentially. The notebook is structured to guide you through each step of the process. ###
+-Execute Cells: Run each code cell sequentially. The notebook is structured to guide you through each step of the process.
 
-### Data Download: The notebook automatically downloads a pre-structured version of the dataset, so you do not need to manually handle the Kaggle API key setup. ###
+-Data Download: The notebook automatically downloads a pre-structured version of the dataset, so you do not need to manually handle the Kaggle API key setup.
 
-### Training: The model will begin training for 15 epochs. This may take some time, depending on the Colab environment's performance. ###
+-Training: The model will begin training for 15 epochs. This may take some time, depending on the Colab environment's performance. 
 
-Prediction: After training, the final cell will make predictions on two example images (one cat, one dog) downloaded from the web. You can easily modify this to test your own images by uploading them to Colab.
+-Prediction: After training, the final cell will make predictions on two example images (one cat, one dog) downloaded from the web. You can easily modify this to test your own images by uploading them to Colab.
 
-Interpreting the Results
+-Interpreting the Results
 The model's performance can be evaluated by examining the generated plots for accuracy and loss.
 
-Accuracy: The goal is to see both training and validation accuracy increase over time. If the training accuracy continues to rise while the validation accuracy flattens or decreases, the model is overfitting and may not perform well on new data.
+-Accuracy: The goal is to see both training and validation accuracy increase over time. If the training accuracy continues to rise while the validation accuracy flattens or decreases, the model is overfitting and may not perform well on new data.
 
-Loss: Similarly, the goal is for both training and validation loss to decrease. If the validation loss begins to increase while the training loss decreases, this is another strong indicator of overfitting.
+-Loss: Similarly, the goal is for both training and validation loss to decrease. If the validation loss begins to increase while the training loss decreases, this is another strong indicator of overfitting.
 
-Based on the provided code with 30 epochs, you will likely observe a clear case of overfitting, where the validation accuracy and loss plateau after about 15 epochs. This demonstrates a key challenge in machine learning and the importance of monitoring these plots to determine the optimal number of training epochs.
+### Based on the provided code with 30 epochs, you will likely observe a clear case of overfitting, where the validation accuracy and loss plateau after about 15 epochs. This demonstrates a key challenge in machine learning and the importance of monitoring these plots to determine the optimal number of training epochs. ###
 
-License
-This project is licensed under the MIT License.
+### License
+### This project is licensed under the MIT License.
