@@ -7,7 +7,7 @@
 
 ## This is the End to End implementation of Cat and Dog classification, developing the model locally and deploying the project as a web application on Amazon Web Service (AWS)
 
-### Modular coding with Python with step by step pipeline execution
+### Modular coding using Python with step by step pipeline execution
 
 ### using Frontend development, HTML5, CSS3, Bootstrap, JavaScript, and Flask for backend integration.
 
@@ -15,8 +15,7 @@
 
 ### AWS CI/CD Deployment using GitHub Actions
 
-### Dataset url
-
+### Dataset url:
 <a href="https://github.com/entbappy/Branching-tutorial/raw/master/cat-dog-data.zip">Cat_and_Dog</a>
 
 ## How to run?
@@ -49,6 +48,39 @@ python app.py
 ```
 
 # AWS CICD Deployment with Github Actions
+
+### 1. Login to AWS console.
+
+### 2. Create IAM user for deployment
+
+```bash
+
+#with specific access
+
+1. EC2 access : It is a virtual machine
+
+2. ECR: Elastic Container registry to save your docker image in AWS
+
+
+# About the deployment
+
+1. Building docker image of the source code
+
+2. Pushing docker image to ECR
+
+3. Launching Your EC2 
+
+4. Pulling image from ECR in EC2
+
+5. Lauching docker image in EC2
+
+#Policy:
+
+1. AmazonEC2ContainerRegistryFullAccess
+
+2. AmazonEC2FullAccess
+```
+<hr>
 
 ## This repository contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment. ##
 <hr>
