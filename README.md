@@ -17,6 +17,8 @@
 
 <hr>
 
+### screenshots of the web application
+
 <img src="cnncls_screenchots/cnncls1.PNG" alt="web app prediction" width="600" height="400"/>
 <hr>
 <img src="cnncls_screenchots\cnncls2.PNG" alt="web app prediction" width="600" height="400"/>
@@ -100,7 +102,7 @@ python app.py
 ### 3. Create ECR repo to store/save docker image
 
 ```bash
-- Save the URI: 
+- Save the URI: 646741850091.dkr.ecr.eu-north-1.amazonaws.com/catdog 
 ```
 ### 4. Create EC2 machine (Ubuntu)
 
@@ -133,7 +135,7 @@ AWS_ACCESS_KEY_ID=
 
 AWS_SECRET_ACCESS_KEY=
 
-AWS_REGION = us-east-1
+AWS_REGION = eu-north-1
 
 AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
