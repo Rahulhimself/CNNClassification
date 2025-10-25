@@ -3,10 +3,57 @@
 <img src="images\Cat-and-Dog.jpg" alt="cat vs dog poster" width="600" height="400"/>
 <hr>
 
+## Project Objectives ##
+
+## This is the End to End implementation of Cat and Dog classification, developing the model locally and deploying the project as a web application on Amazon Web Service (AWS)
+
+### Modular coding with Python with step by step pipeline execution
+
+### using Frontend development, HTML5, CSS3, Bootstrap, JavaScript, and Flask for backend integration.
+
+### Containarization of the code using Docker
+
+### AWS CI/CD Deployment using GitHub Actions
+
+### Dataset url
+
+<a href="https://github.com/entbappy/Branching-tutorial/raw/master/cat-dog-data.zip">Cat_and_Dog</a>
+
+## How to run?
+
+## Steps:
+
+## clone the repository:
+
+``` bash
+https://github.com/entbappy/cnnClassifier
+
+```
+## STEP 01- Create a conda environment after opening the repository
+
+``` bash
+conda create -n cnncls python=3.10 -y
+```
+```bash
+conda activate cnncls
+```
+
+## STEP 02- install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+```bash
+#run the following command
+python app.py
+```
+
+# AWS CICD Deployment with Github Actions
+
 ## This repository contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment. ##
 <hr>
 
-## Project Objectives ##
+
 
 ### The main goals of this project are: ###
 
