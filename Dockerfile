@@ -18,7 +18,7 @@ RUN apt update -y \
 
 # Copy only the requirements file first.
 # This maximizes caching: if only code changes, this layer is skipped.
-#COPY requirements.txt .
+COPY requirements.txt .
 
 # Create and activate a virtual environment (best practice for production)
 ENV VIRTUAL_ENV=/opt/venv
