@@ -17,6 +17,15 @@
 
 <hr>
 
+<img src="cnncls_screenchots/cnncls1.PNG" alt="web app prediction" width="600" height="400"/>
+<hr>
+<img src="cnncls_screenchots\cnncls2.PNG" alt="web app prediction" width="600" height="400"/>
+<hr>
+<img src="cnncls_screenchots\cnncls3.PNG" alt="web app prediction" width="600" height="400"/>
+<hr>
+<img src="cnncls_screenchots\cnncls4.PNG" alt="web app prediction" width="600" height="400"/>
+<hr>
+
 ### Dataset url:
 <a href="https://github.com/entbappy/Branching-tutorial/raw/master/cat-dog-data.zip">Cat_and_Dog</a>
 
