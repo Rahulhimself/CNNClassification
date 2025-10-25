@@ -7,16 +7,22 @@
 
 ## This is the End to End implementation of Cat and Dog classification, developing the model locally and deploying the project as a web application on Amazon Web Service (AWS)
 
-### Modular coding using Python with step by step pipeline execution
+### -Modular coding using Python with step by step pipeline execution
 
-### using Frontend development, HTML5, CSS3, Bootstrap, JavaScript, and Flask for backend integration.
+### -using Frontend development, HTML5, CSS3, Bootstrap, JavaScript, and Flask for backend integration.
 
-### Containarization of the code using Docker
+### -Containarization of the code using Docker
 
-### AWS CI/CD Deployment using GitHub Actions
+### -AWS CI/CD Deployment using GitHub Actions
+
+<hr>
 
 ### Dataset url:
 <a href="https://github.com/entbappy/Branching-tutorial/raw/master/cat-dog-data.zip">Cat_and_Dog</a>
+
+
+
+<hr>
 
 ## How to run?
 
@@ -51,7 +57,7 @@ python app.py
 
 ### 1. Login to AWS console.
 
-### 2. Create IAM user for deployment
+### 2. Creating IAM user for deployment
 
 ```bash
 
@@ -82,10 +88,13 @@ python app.py
 ```
 <hr>
 
-## This repository contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment. ##
+# Initial testing of CNN Classification for the project
+
+## The file Cat and Dog Classification using cnn notebook contains a deep learning project that classifies images of cats and dogs using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.The project is structured as a Google Colab notebook, allowing for easy execution and step-by-step learning without the need for local setup of a deep learning environment. ##
+
 <hr>
 
-
+## Description of the Testing on Notebook
 
 ### The main goals of this project are: ###
 
