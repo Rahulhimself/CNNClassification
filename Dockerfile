@@ -1,7 +1,14 @@
 FROM python:3.7-slim-buster
 
 # Example for installing awscli
-RUN apt update -y && apt install -y awscli && rm -rf /var/lib/apt/lists/*
+FROM debian:buster
+
+# WARNING: Only use this method if absolutely required to use EOL Buster
+RUN sed -i 's/deb.debian.org/archive.debian.org/g' /etc/apt/sources.list \
+    && sed -i '/security/d' /etc/apt/sources.list \
+    && apt update -y \
+    && apt install -y awscli \
+    && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 
 COPY . /app
