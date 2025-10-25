@@ -1,6 +1,9 @@
 FROM python:3.7-slim-buster
 
-RUN apt update -y && apt install awscli -y
+# Example for installing awscli
+RUN apt update -y \ 
+    && apt install -y awscli \ 
+    && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 
 COPY . /app
