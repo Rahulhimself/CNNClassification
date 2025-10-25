@@ -2,7 +2,7 @@
 # STAGE 1: builder (Used for compiling dependencies and installing tools)
 # ----------------------------------------------------------------------
 # Use a modern, slim base image for security and smaller size
-FROM python:3.12-slim-bookworm AS builder
+FROM python:3.9-slim-bookworm AS builder
 
 # Set the working directory inside the container
 WORKDIR /app
