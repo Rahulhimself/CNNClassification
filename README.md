@@ -102,7 +102,7 @@ python app.py
 ### 3. Create ECR repo to store/save docker image
 
 ```bash
-- Save the URI: 646741850091.dkr.ecr.eu-north-1.amazonaws.com/catdog 
+- Save the URI: 646741850091.dkr.ecr.eu-north-1.amazonaws.com/catdog
 ```
 ### 4. Create EC2 machine (Ubuntu)
 
